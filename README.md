@@ -1,2 +1,6 @@
 # base-apparel-coming-soon
-Frontend Mentor challenge 1
+```
+- *Chelsea Lee*
+- suyamyself@gmail.com
+- coding challenge from frontend mentor
+```
