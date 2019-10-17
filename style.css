@@ -1,0 +1,73 @@
+/* body */
+
+
+body{margin:0;background-color:hsla(0, 36%, 70%, 0.1)}
+/* header */
+
+header {height:100px; display:flex;align-items: center;}
+header a{margin-left:10%;}
+header a img {width:70%;}
+
+/* main */
+
+main{ padding-top:250px; background-image: url(images/hero-mobile.jpg); background-repeat: no-repeat; background-size:100%;}
+
+/* main section */
+
+main section{display:flex; flex-direction: column; align-items:center; font-family:'Josefin Sans', sans-serif;}
+
+
+main section h1 {width: 200px; text-align:center; font-size:2.2rem; line-height: 1.1;letter-spacing: 8px;}
+main section h1 span.we {color:hsl(0, 36%, 70%); font-weight:300;}
+main section h1 span.coming{color:hsl(0, 6%, 24%);font-weight:400;}
+
+main section p {width:90%;text-align: center;color:hsl(0, 36%, 70%);font-size:.8rem;line-height:1.5;
+}
+
+main section form {width:80%;margin-top:1.5rem;margin-bottom: 1.5rem; position: relative;}
+
+main section form input {width:100%; height:2.5rem; text-align: left;font-family:'Josefin Sans', sans-serif; border:1px solid hsla(0, 36%, 70%, 0.657); border-radius:20px;  background-color:hsla(0, 36%, 70%, 0.01);margin:0; outline:none;}
+main section form p {text-align:left;}
+
+
+main section form input::placeholder{color:hsl(0, 36%, 70%);padding-left:1.2rem;}
+
+main section form button{background-color:hsla(0, 93%, 68%, 0.87); border:none;  border-radius:50%; height:2.7rem;width:3.2rem;position:absolute;right:-4px;top:0; color:white; font-size:1.5rem; }
+
+
+
+/* footer */
+footer{background-color:white;}
+footer p{margin:0; color:rgba(128, 128, 128, 0.568);font-family:'Josefin Sans', sans-serif;font-size:.8rem; padding: 1rem 0; text-align:center;}
+footer a{text-decoration: none;color:rgba(77, 57, 57, 0.568);}
+
+@media screen and (min-width: 375px){
+    main {padding-top:300px;}
+}
+@media screen and (min-width: 475px){
+    main {padding-top:350px;}
+}
+@media screen and (min-width: 550px){
+    main {padding-top:400px;}
+}
+
+@media screen and (min-width: 600px){
+    
+    main {padding-top:450px;}
+   
+}
+@media screen and (min-width: 700px){
+    
+    main {padding-top:500px;}
+   
+}
+@media screen and (min-width: 800px){
+    
+    body{padding-right:45%;background-image:url(images/hero-desktop.jpg);background-size:45%;background-position:top right; background-repeat: no-repeat;}
+    main{background-image:url(images/bg-pattern-desktop.svg);padding:0; display:flex; justify-content: center;}
+    main section {width:50%;}
+   
+}
+@media screen and (min-width: 1050px){
+    body{padding-right:40%; background-size:40%;}
+}
